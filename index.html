@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pure – Diffusers Collection</title>
+    <!-- SEO: concise description for listing -->
+    <meta name="description"
+        content="Zero Nic, plant-based diffusers. Browse all products, bundles and singles. Fast, responsive, and optimized loading." />
+    <!-- Main stylesheet -->
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Main JavaScript file -->
+    <script defer src="script.js"></script>
+</head>
+
+<body>
+    <div class="shopify-app">
+        <!-- ================= ANNOUNCEMENT BAR ================= -->
+        <!-- Top promo/announcement section (full width) -->
+        <div class="announcement-bar">
+            <span class="announcement-text">
+                SPECIAL LIMITED OFFER | BUY 2 GET 1 FREE | BUY 4 GET 2 FREE
+            </span>
+        </div>
+
+        <!-- ================= HEADER ================= -->
+        <header class="main-header">
+            <div class="custom-header" role="navigation">
+                <!-- Left: Hamburger menu button (shown on mobile/tablet) -->
+                <button class="hamburger" aria-label="Open menu">
+                    <span>&#9776;</span>
+                </button>
+
+                <!-- Center: Logo (centered on mobile/tablet, aligned left on desktop) -->
+                <div class="logo">pure</div>
+
+                <!-- Desktop navigation links -->
+                <nav class="nav" aria-label="Primary">
+                    <a class="nav-link" href="#">Home</a>
+                    <a class="nav-link" href="#">Shop</a>
+                    <a class="nav-link" href="#">Contact</a>
+                    <a class="nav-link" href="#">About Us</a>
+                    <a class="nav-link" href="#">FAQ</a>
+                    <a class="nav-link" href="#">Wholesale</a>
+                </nav>
+
+                <!-- Right: Cart button -->
+                <button class="cart-btn" aria-label="Open cart">
+                    <img src="https://cdn-icons-png.flaticon.com/512/34/34568.png" alt="Cart" width="28" height="28" />
+                </button>
+            </div>
+        </header>
+
+        <!-- ================= HERO SECTION ================= -->
+        <!-- Hero with image + intro text -->
+        <section class="hero-content">
+            <div class="hero-inner">
+                <!-- Hero image -->
+                <div class="hero-img-wrapper">
+                    <img src="https://www.purediffuserco.com/cdn/shop/files/5bea7e80c941799091e09fa1a8b3a87bb188663c.png?v=1745861691&width=528"
+                        alt="Pure diffusers" class="hero-img" fetchpriority="high" decoding="async" />
+                </div>
+                <!-- Hero text box -->
+                <div class="hero-box">
+                    <div class="hero-rating">★★★★★ 4.9/5 | Based on 1,000+ reviews</div>
+                    <h1 class="hero-title">Pick Your Mood</h1>
+                    <p class="hero-desc">
+                        Zero Nic, just pure plant-based diffuser. Discover our naturally derived formulas
+                        today. Wanna quick boost or a moment to chill? We got you covered either way.
+                    </p>
+                    <ul class="hero-benefits">
+                        <li><span>🌱</span> Active ingredients for every mood</li>
+                        <li><span>✔️</span> No Nic & Plant Powered</li>
+                        <li><span>🛡️</span> 30-Day Guarantee</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= PRODUCT FILTER TABS ================= -->
+        <!-- Navigation for switching between product views -->
+        <nav class="product-tabs">
+            <button class="tab active" data-filter="all">All Products</button>
+            <button class="tab" data-filter="bundle">Bundles + Best Deals</button>
+            <button class="tab" data-filter="single">Single Diffusers</button>
+        </nav>
+
+        <!-- ================= PRODUCT GRID ================= -->
+        <!-- Products are dynamically injected via JS -->
+        <div id="products-grid" class="products-grid"></div>
+
+        <!-- ================= FAQ SECTION ================= -->
+        <section class="faq-section">
+            <h2 class="faq-title">Frequently Asked<br />Questions</h2>
+
+            <div class="faq-list">
+                <!-- Each FAQ item: question button + answer -->
+                <div class="faq-item">
+                    <button class="faq-question">
+                        Will these help me quit?
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">Answer for quitting.</div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        Does it have nic?
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">No, it does not have nicotine.</div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        What are the ingredients?
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">Our diffusers use plant-based ingredients.</div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        How long does each diffuser last?
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">Each diffuser lasts about 300 puffs.</div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        Can I return it?
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">Yes, you can return within 30 days.</div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        Buy 2 Get 1 FREE + Buy 3 Get 2 FREE
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">Yes, these deals are active now.</div>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+
+</html>
